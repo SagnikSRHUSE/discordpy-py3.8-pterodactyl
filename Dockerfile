@@ -20,7 +20,7 @@ RUN sed -i 's/^# *\(en_US.UTF-8\)/\1/' /etc/locale.gen \
 ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
-    # Python3.7
+    # Python3.8
 RUN python3.8 -m pip install discord.py[voice] 
 
 USER container
